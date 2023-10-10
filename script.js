@@ -18,7 +18,7 @@ document.addEventListener("keydown", (e) =>{
     keyCode.innerText = e.keyCode;
 
     let li = document.createElement("li");
-    li.innerText = `${name} : ${e.keyCode}`;
+    li.innerText = `${name} : ${e.code}`;
     insertAfter(li, list.firstElementChild);
     // list.appendChild(li);
 });
